@@ -1,0 +1,16 @@
+<ion-content fullscreen="true">
+  <ion-slides #slides pager="false" [options]="slideOpts">
+    <ion-slide class="slide-background swiper-no-swiping" *ngFor="let background of backgrounds"
+      [ngStyle]="{'background-image': 'url(' + background +')'}">
+    </ion-slide>
+  </ion-slides>
+  <div class="container">
+    <div class="layout_1"></div>
+    <div class="layout_2">
+      <div class="info">
+        <h2 class="info__title">Seen-Digital Face-Recognition</h2>
+        <div class="info__time">2020-Decemble-15 5:21 PM</div>
+      </div>
+    </div>
+  </div>
+</ion-content>

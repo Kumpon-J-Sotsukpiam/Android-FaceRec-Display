@@ -1,0 +1,9 @@
+{
+  "name": "ionic-conference-app",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "5271286b"
+}
